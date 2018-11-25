@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/myshape"
+    android:layout_margin="5dp"
+    tools:context="com.veeresh.b37_dialogeg.MyCustomDialog">
+    <!--HEADER DESIGN STARTS HERE-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccc">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GMAIL"
+            android:textSize="30sp"
+            android:gravity="center|"/>
+    </LinearLayout>
+    <!--BODY DESIGN STARTS HERE-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="Enter email address"
+        android:textColorHint="#f0f"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Enter password"
+        android:textColorHint="#080"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textSize="30sp"/>
+    <!--FOOTER DESIGN STARTS HERE-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0f0">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Logout"
+            android:id="@+id/button1"
+            android:textSize="30sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:id="@+id/button2"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</LinearLayout>

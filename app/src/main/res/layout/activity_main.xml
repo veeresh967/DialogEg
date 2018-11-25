@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.veeresh.b37_dialogeg.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW ALERT POPUP"
+        android:id="@+id/button1"
+        android:textSize="30sp"
+        android:onClick="showPopUp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW PROGRESS DIALOG"
+        android:id="@+id/button2"
+        android:textSize="30sp"
+        android:onClick="showPopUp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW DATE DIALOG"
+        android:id="@+id/button3"
+        android:textSize="30sp"
+        android:onClick="showPopUp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW TIME DIALOG"
+        android:id="@+id/button4"
+        android:textSize="30sp"
+        android:onClick="showPopUp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW GMAIL DIALOG"
+        android:id="@+id/button5"
+        android:textSize="30sp"
+        android:onClick="showPopUp"/>
+</LinearLayout>
